@@ -6,19 +6,20 @@ import { AppComponent } from './app.component';
 import { CompetencesComponent } from './competences/competences.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NavigationComponent } from './navigation/navigation.component';
+import { CoreModule } from './core/core.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CompetencesComponent,
-    ExperiencesComponent,
-    NavigationComponent
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
