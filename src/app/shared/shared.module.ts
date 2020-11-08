@@ -7,6 +7,9 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CommonModule
   ]
 })
 /* le  role de sharedModule est de centraliser l'importation des composants, des directives et des
