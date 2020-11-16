@@ -1,14 +1,16 @@
 import { NgModule , Optional , SkipSelf } from '@angular/core';
+import { NavbarComponent } from './components/navbar/navbar.component';
 //import { CommonModule } from '@angular/common';
 //import { PublicModule } from '../public/public.module';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [NavbarComponent],
   imports: [
 
-  ]
+  ],
+  exports: [NavbarComponent]
 })
 
 export class CoreModule {
